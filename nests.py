@@ -1,9 +1,10 @@
+from typing import Tuple
+
 from coordinate import Coordinate
 class Nest(Coordinate):
     def __init__(self,**kwargs):
         super().__init__(**kwargs)
-        self.__abandoned = True
-        
+        self.__abandoned = True    
     @property
     def abandoned(self):
         return self.__abandoned
