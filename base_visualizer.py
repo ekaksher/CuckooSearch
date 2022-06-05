@@ -1,16 +1,9 @@
-# ------------------------------------------------------------------------------------------------------
-#  Copyright (c) Leo Hanisch. All rights reserved.
-#  Licensed under the BSD 3-Clause License. See LICENSE.txt in the project root for license information.
-# ------------------------------------------------------------------------------------------------------
-
 from typing import Iterable, Tuple
 
 import matplotlib.pyplot as plt
 from matplotlib import animation
 from matplotlib.cm import get_cmap
 import numpy as np
-
-# pylint:disable=too-many-locals,too-many-instance-attributes,invalid-name
 
 from abc import ABC, abstractmethod
 
