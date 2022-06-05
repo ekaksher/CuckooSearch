@@ -36,8 +36,7 @@ class CuckooProblem(ProblemBase):
         self.__max_generations = kwargs.pop('max_generations', 30)
         self.__lambda = kwargs.pop('lambda', 1.5)
         self.__p_a = kwargs.pop('p_a', .1)
-
-        self.__function = kwargs['function']
+        self.__function = kwargs['function'] 
         self.__nests = [
             Nest(lower_boundary=self.__lower_boundary, upper_boundary=self.__upper_boundary, function=self.__function, bit_generator=self._random)
             for _ in range(kwargs['nests'])

@@ -1,10 +1,3 @@
-# ------------------------------------------------------------------------------------------------------
-#  Copyright (c) Leo Hanisch. All rights reserved.
-#  Licensed under the BSD 3-Clause License. See LICENSE.txt in the project root for license information.
-# ------------------------------------------------------------------------------------------------------
-
-#pylint: disable=invalid-name
-
 import inspect
 from functools import wraps
 from typing import Callable

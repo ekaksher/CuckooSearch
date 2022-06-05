@@ -10,7 +10,6 @@ class Coordinate:
         self.__upper_boundary = kwargs.get('upper_boundary', 4.)
         self._random = kwargs['bit_generator']
         self._function = kwargs['function']
-
         self.__value = None
         self.__position = None
         self._initialize()
